@@ -3,7 +3,10 @@
   box-sizing: border-box;
   background-color: $color_white;
 }
-// .article__anchor-class { }
+.article__anchor-class {
+  position: relative;
+  top: -44px;
+}
 .article__container{
   max-width: 730px;
   margin: auto;

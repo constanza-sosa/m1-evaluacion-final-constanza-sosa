@@ -36,8 +36,8 @@
 }
 
 .hero__icon-link{
-  @include hero-icon-link ();
   transform: translateX(-50%);
+  @include hero-icon-link ();
   position: absolute;
   left: 50%;
   top: 85%;
