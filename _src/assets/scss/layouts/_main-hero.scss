@@ -36,22 +36,24 @@
 }
 
 .hero__icon-link{
-  display: block;
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: $color-white;
-  background-image: url("../images/ico-scroll-down.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 20px 12px;
+  @include hero-icon-link ();
+  transform: translateX(-50%);
   position: absolute;
   left: 50%;
   top: 85%;
-  transform: translateX(-50%);
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
+@keyframes bounce {
+  from {
+    transform: scale(10);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
 
 @media all and (min-width:768px){
   .hero__text-container{

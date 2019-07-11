@@ -3,21 +3,12 @@
   text-align: center;
 }
 .footer__link {
+  @include footer-icon-link;
   transform: translateY(-50%);
-  text-align: center;
-  display: inline-block;
-  height: 45px;
-  width: 45px;
-  border-radius: 50%;
-  cursor: pointer;
-  background-color: $color-white;
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
-  background-image: url("../images/ico-arrow.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 24px;
   margin-bottom: 15px;
+}
+.footer__link:hover{
+  transform: scale(1.5) translateY(-40%);
 }
 .footer__nav {
   margin-bottom: 30px;
@@ -44,6 +35,8 @@
   color: $color_white;
   &:hover{
   color: $color_bright-orange;
+  transform: scale(1.5);
+  transition: color ease 2s, scale ease 3s;
   }
 }
 
@@ -67,6 +60,11 @@
   }
   .footer__link-to{
     @include footer-links-text-768;
+  }
+  .footer__link-to:hover{
+    color: $color_bright-orange;
+    text-decoration: underline;
+    transition: color ease-in-out .5s;
   }
   .footer__text {
     @include footer-copy-text-768;

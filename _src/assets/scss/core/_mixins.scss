@@ -5,6 +5,36 @@
   background-position: center;
 }
 
+//BOX-LINKS
+@mixin hero-icon-link {
+  display: block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: $color-white;
+  background-image: url("../images/ico-scroll-down.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 20px 12px;
+}
+@mixin footer-icon-link {
+  text-align: center;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: $color-white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-image: url("../images/ico-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+}
+
 
 // FONT-STYLES --> HERO
 @mixin h1-font() {
