@@ -26,3 +26,8 @@
   text-align: center;
   @include go-text ();
 }
+
+.article__container{
+  max-width: 730px;
+  margin: auto;
+}
