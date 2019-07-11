@@ -34,7 +34,7 @@
     margin-bottom: 1px;
 }
 
-@mixin aricle-title (){
+@mixin article-title (){ //vale para el titulo de purchase
   font-family: $font_family-RobotoS;
   font-size: 24px;
   font-weight: bold;
@@ -44,25 +44,57 @@
 }
 
 @mixin article-text(){
-    font-family: $font_family-Roboto;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 30px;
-    letter-spacing: normal;
-    color: $color_greyish-brown;
-    margin-bottom: 30px;
+  font-family: $font_family-Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: $color_greyish-brown;
+  margin-bottom: 30px;
 }
 
 @mixin go-text () {
   font-family: $font_family-Roboto;
   font-size: 20px;
   font-weight: 500;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 2.25;
+  line-height: 45px;
   letter-spacing: normal;
   text-align: center;
   color: $color_bright-orange;
 }
 
 // FONT-STYLES --> PURCHASE
+@mixin purchase-section-title (){
+  font-family: $font_family-RobotoS;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  color: $color_black;
+  margin-bottom: 45px;
+}
+@mixin purchase-title {
+  font-family: $font_family-RobotoS;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: $color_black;
+}
+@mixin purchase-text {
+    font-family: $font_family-Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    text-align: center;
+    color: $color_black;
+    margin-bottom: 45px;
+}
+
+@mixin purchase__button-text {
+    font-family: $font_family-Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: $color_white;
+  }

@@ -3,3 +3,11 @@
   height: 44px;
   width: 44px;
 }
+
+.purchase__button{
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  background-color: $color_bright-orange;
+  @include purchase__button-text;
+}
