@@ -1,0 +1,64 @@
+.footer {
+  background-color: $color_dark-grey-blue;
+  text-align: center;
+}
+.footer__link {
+  transform: translateY(-50%);
+  text-align: center;
+  display: inline-block;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: $color-white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  background-image: url("../images/ico-arrow.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  margin-bottom: 15px;
+}
+.footer__nav {
+  margin-bottom: 30px;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  @include footer-list-text ();
+}
+.footer__social-list {
+  margin-bottom: 30px;
+}
+
+.footer__text {
+  @include footer-copy-text;
+  margin: 0;
+}
+
+.footer__copy{
+  margin-bottom: 45px;
+}
+
+.footer__copy-heart {
+  color: $color_white;
+  &:hover{
+  color: $color_bright-orange;
+  }
+}
+
+.footer__nav-list { }
+.footer__nav-list-item { }
+.n-item-1 { }
+.n-item-2 { }
+.n-item-3 { }
+.n-item-4 { }
+.n-item-5 { }
+.footer__social-list-item { }
+.s-item-1 { }
+.s-item-2 { }
+.s-item-3 { }
+
+
+.footer_flex-container { }
