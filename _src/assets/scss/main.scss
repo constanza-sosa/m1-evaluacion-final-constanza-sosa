@@ -1,9 +1,20 @@
-@import 'core/variables';
-@import 'core/settings';
-@import 'core/links';
+// CORE SCSS
+@import 'core/_variables.scss';
+@import 'core/_settings.scss';
+@import 'core/_links.scss';
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
-}
+//PAGES SCSS
+@import 'pages/_home.scss';
+
+// COMPONENTS CSS
+@import 'components/_buttons.scss';
+
+// LAYOUTS CSS
+@import 'layouts/_header.scss';
+@import 'layouts/_main-hero.scss';
+@import 'layouts/_main-article.scss';
+@import 'layouts/_main-purchase.scss';
+@import 'layouts/_footer.scss';
+
+
+
