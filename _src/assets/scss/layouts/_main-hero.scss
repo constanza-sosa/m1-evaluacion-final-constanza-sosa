@@ -39,3 +39,21 @@
   background-position: center;
   background-size: 20px 12px;
 }
+
+@media all and (min-width:768px){
+  .hero__title{
+    @include h1-font-768();
+  }
+  .hero__text{
+    @include subtitle-font-768;
+  }
+}
+
+@media all and (min-width:1100px){
+  .hero__title{
+    @include h1-font-1100();
+  }
+  .hero__text{
+    @include subtitle-font-1100;
+  }
+}

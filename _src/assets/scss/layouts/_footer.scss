@@ -26,21 +26,20 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  @include footer-list-text ();
 }
 .footer__social-list {
   margin-bottom: 30px;
 }
-
+.footer__link-to{
+  @include footer-links-text;
+}
 .footer__text {
   @include footer-copy-text;
   margin: 0;
 }
-
 .footer__copy{
   margin-bottom: 45px;
 }
-
 .footer__copy-heart {
   color: $color_white;
   &:hover{
@@ -48,17 +47,44 @@
   }
 }
 
-.footer__nav-list { }
-.footer__nav-list-item { }
-.n-item-1 { }
-.n-item-2 { }
-.n-item-3 { }
-.n-item-4 { }
-.n-item-5 { }
-.footer__social-list-item { }
-.s-item-1 { }
-.s-item-2 { }
-.s-item-3 { }
+@media all and (min-width:768px){
+  .footer_flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  }
+  .footer__nav{
+  order: 1;
+  }
+  .footer__social-list{
+  order: 2;
+  }
+  .footer__copy{
+  order: 0;
+  }
+  .list {
+    text-align: left;
+  }
+  .footer__link-to{
+    @include footer-links-text-768;
+  }
+  .footer__text {
+    @include footer-copy-text-768;
+    text-align: left;
+  }
+}
 
+@media all and (min-width:1100px){
+  .footer_flex-container{
+    max-width: 730px;
+    justify-content: space-around;
+    margin:auto;
+  }
+  .footer__link-to{
+    @include footer-links-text-1100;
+  }
 
-.footer_flex-container { }
+  .footer__text {
+    @include footer-copy-text-1100;
+  }
+}

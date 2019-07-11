@@ -58,6 +58,7 @@
   letter-spacing: normal;
   text-align: center;
   color: $color_bright-orange;
+  text-decoration: none;
 }
 
 
@@ -97,7 +98,7 @@
   }
 
 //FONT-STYLES --> FOOTER
-@mixin footer-list-text {
+@mixin footer-links-text {
   font-family: $font_family-Roboto;
   font-size: 16px;
   font-weight: normal;
@@ -105,9 +106,239 @@
   text-align: center;
   color: $color_white;
   text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 @mixin footer-copy-text {
+  font-family: $font_family-Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: $color_white;
+}
+
+//-- MEDIA 768px
+// FONT-STYLES --> HERO
+@mixin h1-font-768() {
+  font-family: $font_family-RobotoS;
+  font-weight: bold;
+  font-size: 80px;
+  line-height: 106px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $color_white;
+}
+@mixin subtitle-font-768(){
+  font-family: $font_family-Roboto;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: $color_white;
+}
+
+// FONT-STYLES --> ARTICLE
+@mixin article-small-768 (){
+    font-family: $font_family-Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: $color_lightblue;
+    margin-bottom: 1px;
+}
+@mixin article-title-768 (){ //vale para el titulo de reasons sin el bottom-margin
+  font-family: $font_family-RobotoS;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 45px;
+  color: $color_black;
+  margin-bottom: 15px;
+}
+@mixin article-text-768(){
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: $color_greyish-brown;
+  margin-bottom: 30px;
+}
+@mixin go-text-768 () {
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color_bright-orange;
+  text-decoration: none;
+}
+
+
+// FONT-STYLES --> REASONS
+@mixin reasons-section-title-768(){
+  font-family: $font_family-RobotoS;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 45px;
+  color: $color_black;
+  margin-bottom: 45px;
+}
+@mixin reasons-title-768() {
+  font-family: $font_family-RobotoS;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: $color_black;
+}
+@mixin reasons-text-768 {
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: $color_black;
+  margin-bottom: 45px;
+}
+@mixin reasons__button-text-768 {
+    font-family: $font_family-Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: $color_white;
+  }
+
+//FONT-STYLES --> FOOTER
+@mixin footer-links-text-768 {
+  font-family: $font_family-Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: $color_white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@mixin footer-copy-text-768 {
+  font-family: $font_family-Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: $color_white;
+}
+
+//-- MEDIA 1110px
+// FONT-STYLES --> HERO
+@mixin h1-font-1100() {
+  font-family: $font_family-RobotoS;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 132px;
+  text-transform: uppercase;
+  text-align: center;
+  color: $color_white;
+}
+@mixin subtitle-font-1100(){
+  font-family: $font_family-Roboto;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  color: $color_white;
+}
+
+// FONT-STYLES --> ARTICLE
+@mixin article-small-1100 (){
+    font-family: $font_family-Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 30px;
+    color: $color_lightblue;
+    margin-bottom: 1px;
+}
+@mixin article-title-1100 (){ //vale para el titulo de reasons sin el bottom-margin
+  font-family: $font_family-RobotoS;
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 45px;
+  color: $color_black;
+  margin-bottom: 15px;
+}
+@mixin article-text-1100(){
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  letter-spacing: normal;
+  color: $color_greyish-brown;
+  margin-bottom: 30px;
+}
+@mixin go-text-1100 () {
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color_bright-orange;
+  text-decoration: none;
+}
+
+
+// FONT-STYLES --> REASONS
+@mixin reasons-section-title-1100(){
+  font-family: $font_family-RobotoS;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 45px;
+  color: $color_black;
+  margin-bottom: 45px;
+}
+@mixin reasons-title-1100() {
+  font-family: $font_family-RobotoS;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  text-align: center;
+  color: $color_black;
+}
+@mixin reasons-text-1100 {
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: $color_black;
+  margin-bottom: 45px;
+}
+@mixin reasons__button-text-1100 {
+    font-family: $font_family-Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 45px;
+    text-align: center;
+    color: $color_white;
+  }
+
+//FONT-STYLES --> FOOTER
+@mixin footer-links-text-1100{
+  font-family: $font_family-Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: $color_white;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+@mixin footer-copy-text-1100 {
   font-family: $font_family-Roboto;
   font-size: 14px;
   font-weight: normal;

@@ -21,8 +21,53 @@
   @include reasons-text;
 }
 
-
-// reasons__grid-container { }
-// .item-1 { }
-// .item-2 { }
-// .item-3 { }
+@media all and (min-width:768px){
+.reasons__grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+  grid-column-gap: 30px;
+}
+.reasons__title{
+  grid-column: 1/4;
+  grid-row: 1/2;
+  @include reasons-section-title-768();
+}
+.item-1{
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+.item-2{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.item-3{
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.reasons__button-container{
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+.reasons__item-title {
+  margin: 0;
+  @include reasons-title-768;
+}
+.reasons__item-text {
+  margin: 0;
+  @include reasons-text-768;
+}
+}
+@media all and (min-width:1100px){
+  .reasons__title{
+    @include reasons-section-title-1100();
+  }
+  .reasons__item-title {
+    margin: 0;
+    @include reasons-title-1100;
+  }
+  .reasons__item-text {
+    margin: 0;
+    @include reasons-text-1100;
+  }
+  }

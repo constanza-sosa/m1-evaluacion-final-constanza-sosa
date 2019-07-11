@@ -13,3 +13,25 @@
   cursor: pointer;
   @include reasons__button-text;
 }
+
+@media all and (min-widht:768px){
+  .reasons__button{
+    width: 210px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $color_bright-orange;
+    cursor: pointer;
+    @include reasons__button-text-768;
+  }
+}
+
+@media all and (min-widht:1100px){
+  .reasons__button{
+    width: 255px;
+    height: 45px;
+    border-radius: 22.5px;
+    background-color: $color_bright-orange;
+    cursor: pointer;
+    @include reasons__button-text-1100;
+  }
+}
