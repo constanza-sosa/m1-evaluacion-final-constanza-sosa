@@ -45,6 +45,11 @@
   animation-duration: 2s;
   animation-iteration-count: 1;
 }
+.hero__icon-link:hover{
+  border: 2px solid $color_bright-orange;
+  transform: scale(1.5);
+  transition: transform ease-in-out .8s, border ease 1s;
+}
 @keyframes bounce {
   from {
     transform: scale(10);
