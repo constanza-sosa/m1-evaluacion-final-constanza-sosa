@@ -1,0 +1,28 @@
+.article {
+  padding: 30px 0 45px 0;
+  box-sizing: border-box;
+  background-color: $color_white;
+}
+// .article__anchor-class { }
+.article__small-text {
+  margin: 0;
+  @include article-small ();
+ }
+.article__title {
+  margin: 0;
+  @include aricle-title();
+}
+.article__text{
+  margin: 0;
+  @include article-text();
+}
+.article__link {
+  display: block;
+  height: 45px;
+  width: 76px;
+  border-radius: 22.5px;
+  background-color: $color_white;
+  border: solid 2px $color_bright-orange;
+  text-align: center;
+  @include go-text ();
+}

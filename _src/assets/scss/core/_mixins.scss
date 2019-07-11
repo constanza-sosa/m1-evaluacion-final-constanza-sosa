@@ -5,9 +5,9 @@
   background-position: center;
 }
 
-// FONT-STYLES
+// FONT-STYLES --> HERO
 @mixin h1-font() {
-  font-family: 'Roboto Slab', serif;
+  font-family: $font_family-RobotoS;
   font-weight: bold;
   font-size: 42px;
   line-height: 55px;
@@ -16,10 +16,53 @@
   color: $color_white;
 }
 
-@mixin subtitle-font() {
-  font-family: 'Roboto Slab', serif;
+@mixin subtitle-font(){
+  font-family: $font_family-Roboto;
   font-weight: normal;
   font-size: 16px;
   text-align: center;
   color: $color_white;
 }
+
+// FONT-STYLES --> ARTICLE
+@mixin article-small (){
+    font-family: $font_family-Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+    color: $color_lightblue;
+    margin-bottom: 1px;
+}
+
+@mixin aricle-title (){
+  font-family: $font_family-RobotoS;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 30px;
+  color: $color_black;
+  margin-bottom: 15px;
+}
+
+@mixin article-text(){
+    font-family: $font_family-Roboto;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    letter-spacing: normal;
+    color: $color_greyish-brown;
+    margin-bottom: 30px;
+}
+
+@mixin go-text () {
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: center;
+  color: $color_bright-orange;
+}
+
+// FONT-STYLES --> PURCHASE
