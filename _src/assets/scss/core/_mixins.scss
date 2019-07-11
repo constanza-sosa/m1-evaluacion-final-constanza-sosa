@@ -34,7 +34,7 @@
     margin-bottom: 1px;
 }
 
-@mixin article-title (){ //vale para el titulo de purchase
+@mixin article-title (){ //vale para el titulo de reasons sin el bottom-margin
   font-family: $font_family-RobotoS;
   font-size: 24px;
   font-weight: bold;
@@ -63,8 +63,8 @@
   color: $color_bright-orange;
 }
 
-// FONT-STYLES --> PURCHASE
-@mixin purchase-section-title (){
+// FONT-STYLES --> REASONS
+@mixin reasons-section-title (){
   font-family: $font_family-RobotoS;
   font-size: 24px;
   font-weight: bold;
@@ -72,7 +72,7 @@
   color: $color_black;
   margin-bottom: 45px;
 }
-@mixin purchase-title {
+@mixin reasons-title {
   font-family: $font_family-RobotoS;
   font-size: 18px;
   font-weight: bold;
@@ -80,7 +80,7 @@
   text-align: center;
   color: $color_black;
 }
-@mixin purchase-text {
+@mixin reasons-text {
     font-family: $font_family-Roboto;
     font-size: 18px;
     font-weight: normal;
@@ -90,7 +90,7 @@
     margin-bottom: 45px;
 }
 
-@mixin purchase__button-text {
+@mixin reasons__button-text {
     font-family: $font_family-Roboto;
     font-size: 20px;
     font-weight: 500;

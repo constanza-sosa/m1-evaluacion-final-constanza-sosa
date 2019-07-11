@@ -1,0 +1,28 @@
+.reasons {
+  background-color: $color_ice-blue;
+  text-align: center;
+  padding: 30px 0 60px 0;
+}
+
+.reasons__title {
+  margin: 0;
+  @include reasons-section-title();
+}
+.reasons__item {
+  margin: 0;
+}
+
+.reasons__item-title {
+  margin: 0;
+  @include reasons-title;
+}
+.reasons__item-text {
+  margin: 0;
+  @include reasons-text;
+}
+
+
+// reasons__grid-container { }
+// .item-1 { }
+// .item-2 { }
+// .item-3 { }

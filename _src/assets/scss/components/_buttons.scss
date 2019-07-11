@@ -2,12 +2,14 @@
   background-color: $color_cerulean;
   height: 44px;
   width: 44px;
+  cursor: pointer;
 }
 
-.purchase__button{
+.reasons__button{
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
   background-color: $color_bright-orange;
-  @include purchase__button-text;
+  cursor: pointer;
+  @include reasons__button-text;
 }
