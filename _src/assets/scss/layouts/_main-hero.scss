@@ -1,6 +1,7 @@
 .hero {
   background-image: url("../images/cover.jpg");
   @include hero-image();
+  min-height: 300px;
   height: 100vh;
   position: relative;
   top: 0;
@@ -40,22 +41,23 @@
   @include hero-icon-link ();
   position: absolute;
   left: 50%;
-  top: 85%;
+  bottom: 53px;
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: 1;
 }
 .hero__icon-link:hover{
+  transform: translateX(-50%);
   border: 2px solid $color_bright-orange;
   transform: scale(1.5);
   transition: transform ease-in-out .8s, border ease 1s;
 }
 @keyframes bounce {
   from {
-    transform: scale(10);
+    transform: scale(10)translateX(-50%);
   }
   to {
-    transform: scale(1);
+    transform: scale(1) translateX(-50%);
   }
 }
 
@@ -65,7 +67,7 @@
     max-width: 690px;
   }
   .hero__icon-link{
-    top: 90%;
+    bottom: 45px;
   }
   .hero__title{
     @include h1-font-768();
@@ -80,7 +82,7 @@
     max-width: 730px;
   }
   .hero__icon-link{
-    top: 92%;
+    bottom: 13px;
   }
   .hero__title{
     @include h1-font-1100();
