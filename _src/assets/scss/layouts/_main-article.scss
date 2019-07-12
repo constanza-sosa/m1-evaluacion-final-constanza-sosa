@@ -33,10 +33,18 @@
   text-align: center;
   @include go-text();
 }
+.article__link:hover {
+  background-color:$color_bright-orange;
+  border: solid 2px $color_bright-orange;
+  color: $color_white;
+  transition: background-color ease 1s, color ease 1s;
+}
 
 //MEDIA 768px
 @media all and (min-width-768px) {
-  // .article__anchor-class { }
+  .article {
+    padding: 30px 0 60px 0;
+  }
   .article__small-text {
     margin: 0;
     @include article-small-768();
@@ -63,17 +71,16 @@
 
 //MEDIA 1100px
 @media all and (min-width-1100px) {
-  // .article__anchor-class { }
+  .article {
+    padding: 60px 0;
+  }
   .article__small-text {
-    margin: 0;
     @include article-small-1100();
   }
   .article__title {
-    margin: 0;
     @include article-title-1100();
   }
   .article__text {
-    margin: 0;
     @include article-text-1100();
   }
   .article__link {
