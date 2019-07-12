@@ -56,12 +56,12 @@
 
 // FONT-STYLES --> ARTICLE
 @mixin article-small (){
-    font-family: $font_family-Roboto;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 30px;
-    color: $color_lightblue;
-    margin-bottom: 1px;
+  font-family: $font_family-Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  color: $color_lightblue;
+  margin-bottom: 1px;
 }
 @mixin article-title (){ //vale para el titulo de reasons sin el bottom-margin
   font-family: $font_family-RobotoS;
@@ -99,7 +99,6 @@
   font-weight: bold;
   line-height: 30px;
   color: $color_black;
-  margin-bottom: 45px;
 }
 @mixin reasons-title {
   font-family: $font_family-RobotoS;
@@ -110,21 +109,20 @@
   color: $color_black;
 }
 @mixin reasons-text {
-    font-family: $font_family-Roboto;
-    font-size: 18px;
-    font-weight: normal;
-    line-height: 30px;
-    text-align: center;
-    color: $color_black;
-    margin-bottom: 45px;
+  font-family: $font_family-Roboto;
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 30px;
+  text-align: center;
+  color: $color_black;
 }
 @mixin reasons__button-text {
-    font-family: $font_family-Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 45px;
-    text-align: center;
-    color: $color_white;
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: $color_white;
   }
 
 //FONT-STYLES --> FOOTER
@@ -170,12 +168,12 @@
 
 // FONT-STYLES --> ARTICLE
 @mixin article-small-768 (){
-    font-family: $font_family-Roboto;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 30px;
-    color: $color_lightblue;
-    margin-bottom: 1px;
+  font-family: $font_family-Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 30px;
+  color: $color_lightblue;
+  margin-bottom: 1px;
 }
 @mixin article-title-768 (){ //vale para el titulo de reasons sin el bottom-margin
   font-family: $font_family-RobotoS;
@@ -213,7 +211,6 @@
   font-weight: bold;
   line-height: 45px;
   color: $color_black;
-  margin-bottom: 45px;
 }
 @mixin reasons-title-768() {
   font-family: $font_family-RobotoS;
@@ -230,15 +227,14 @@
   line-height: 30px;
   text-align: center;
   color: $color_black;
-  margin-bottom: 45px;
 }
 @mixin reasons__button-text-768 {
-    font-family: $font_family-Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 45px;
-    text-align: center;
-    color: $color_white;
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: $color_white;
   }
 
 //FONT-STYLES --> FOOTER
@@ -284,12 +280,12 @@
 
 // FONT-STYLES --> ARTICLE
 @mixin article-small-1100 (){
-    font-family: $font_family-Roboto;
-    font-size: 16px;
-    font-weight: normal;
-    line-height: 30px;
-    color: $color_lightblue;
-    margin-bottom: 1px;
+  font-family: $font_family-Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
+  color: $color_lightblue;
+  margin-bottom: 1px;
 }
 @mixin article-title-1100 (){ //vale para el titulo de reasons sin el bottom-margin
   font-family: $font_family-RobotoS;
@@ -327,7 +323,6 @@
   font-weight: bold;
   line-height: 45px;
   color: $color_black;
-  margin-bottom: 45px;
 }
 @mixin reasons-title-1100() {
   font-family: $font_family-RobotoS;
@@ -344,15 +339,14 @@
   line-height: 30px;
   text-align: center;
   color: $color_black;
-  margin-bottom: 45px;
 }
 @mixin reasons__button-text-1100 {
-    font-family: $font_family-Roboto;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 45px;
-    text-align: center;
-    color: $color_white;
+  font-family: $font_family-Roboto;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 45px;
+  text-align: center;
+  color: $color_white;
   }
 
 //FONT-STYLES --> FOOTER

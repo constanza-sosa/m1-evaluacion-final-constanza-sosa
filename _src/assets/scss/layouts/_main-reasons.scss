@@ -8,10 +8,17 @@
   margin: 0;
   @include reasons-section-title();
 }
-.reasons__item {
-  margin: 0;
+.reasons__list-container{
+  list-style: none;
+  padding: 0;
+  margin: 45px 0;
 }
-
+.reasons__list-item {
+  margin-bottom: 45px;
+}
+.reasons__list-item:last-child {
+  margin-bottom: 0;
+}
 .reasons__item-title {
   margin: 0;
   @include reasons-title;
@@ -20,34 +27,28 @@
   margin: 0;
   @include reasons-text;
 }
-
+//MEDIA 768px
 @media all and (min-width:768px){
-.reasons__grid-container {
+.reasons__list-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto;
+  grid-auto-flow: row;
+  grid-auto-rows: auto;
   grid-column-gap: 30px;
+  grid-row-gap: 30px;
 }
-.reasons__title{
-  grid-column: 1/4;
-  grid-row: 1/2;
-  @include reasons-section-title-768();
+.reasons__list-item {
+  margin-bottom: 0px;
 }
 .item-1{
   grid-column: 1/2;
-  grid-row: 2/3;
 }
 .item-2{
   grid-column: 2/3;
-  grid-row: 2/3;
 }
 .item-3{
   grid-column: 3/4;
-  grid-row: 2/3;
-}
-.reasons__button-container{
-  grid-column: 1/4;
-  grid-row: 3/4;
 }
 .reasons__item-title {
   margin: 0;
