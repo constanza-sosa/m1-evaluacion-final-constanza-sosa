@@ -38,6 +38,7 @@
 
 .hero__icon-link{
   transform: translateX(-50%);
+  transform-origin: center center;
   @include hero-icon-link ();
   position: absolute;
   left: 50%;
@@ -47,17 +48,16 @@
   animation-iteration-count: 1;
 }
 .hero__icon-link:hover{
-  transform: translateX(-50%);
   border: 2px solid $color_bright-orange;
-  transform: scale(1.5);
+  transform: translateX(-50%) scale(1.1);
   transition: transform ease-in-out .8s, border ease 1s;
 }
 @keyframes bounce {
   from {
-    transform: scale(10)translateX(-50%);
+    transform: translateX(-50%) scale(10);
   }
   to {
-    transform: scale(1) translateX(-50%);
+    transform: translateX(-50%) scale(1);
   }
 }
 
