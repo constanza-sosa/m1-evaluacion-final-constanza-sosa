@@ -35,7 +35,6 @@
   background-size: 24px;
 }
 
-
 // FONT-STYLES --> HERO
 @mixin h1-font() {
   font-family: $font_family-RobotoS;
@@ -91,7 +90,6 @@
   text-decoration: none;
 }
 
-
 // FONT-STYLES --> REASONS
 @mixin reasons-section-title (){
   font-family: $font_family-RobotoS;
@@ -123,7 +121,7 @@
   line-height: 45px;
   text-align: center;
   color: $color_white;
-  }
+}
 
 //FONT-STYLES --> FOOTER
 @mixin footer-links-text {
@@ -137,7 +135,6 @@
   cursor: pointer;
   text-decoration: none;
 }
-
 @mixin footer-copy-text {
   font-family: $font_family-Roboto;
   font-size: 14px;
@@ -147,7 +144,7 @@
   color: $color_white;
 }
 
-//-- MEDIA 768px
+      //-- MEDIA 768px
 // FONT-STYLES --> HERO
 @mixin h1-font-768() {
   font-family: $font_family-RobotoS;
@@ -175,7 +172,7 @@
   color: $color_lightblue;
   margin-bottom: 1px;
 }
-@mixin article-title-768 (){ //vale para el titulo de reasons sin el bottom-margin
+@mixin article-title-768 (){
   font-family: $font_family-RobotoS;
   font-size: 26px;
   font-weight: bold;
@@ -202,7 +199,6 @@
   color: $color_bright-orange;
   text-decoration: none;
 }
-
 
 // FONT-STYLES --> REASONS
 @mixin reasons-section-title-768(){
@@ -235,7 +231,7 @@
   line-height: 45px;
   text-align: center;
   color: $color_white;
-  }
+}
 
 //FONT-STYLES --> FOOTER
 @mixin footer-links-text-768 {
@@ -249,7 +245,6 @@
   cursor: pointer;
   text-decoration: none;
 }
-
 @mixin footer-copy-text-768 {
   font-family: $font_family-Roboto;
   font-size: 14px;
@@ -259,7 +254,7 @@
   color: $color_white;
 }
 
-//-- MEDIA 1110px
+      //-- MEDIA 1110px
 // FONT-STYLES --> HERO
 @mixin h1-font-1100() {
   font-family: $font_family-RobotoS;
@@ -287,7 +282,7 @@
   color: $color_lightblue;
   margin-bottom: 1px;
 }
-@mixin article-title-1100 (){ //vale para el titulo de reasons sin el bottom-margin
+@mixin article-title-1100 (){
   font-family: $font_family-RobotoS;
   font-size: 32px;
   font-weight: bold;
@@ -314,7 +309,6 @@
   color: $color_bright-orange;
   text-decoration: none;
 }
-
 
 // FONT-STYLES --> REASONS
 @mixin reasons-section-title-1100(){
@@ -347,7 +341,7 @@
   line-height: 45px;
   text-align: center;
   color: $color_white;
-  }
+}
 
 //FONT-STYLES --> FOOTER
 @mixin footer-links-text-1100{
@@ -361,7 +355,6 @@
   cursor: pointer;
   text-decoration: none;
 }
-
 @mixin footer-copy-text-1100 {
   font-family: $font_family-Roboto;
   font-size: 14px;

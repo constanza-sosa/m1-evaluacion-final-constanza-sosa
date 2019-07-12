@@ -1,4 +1,4 @@
-.menu__button{
+.menu__button {
   background-color: $color_cerulean;
   height: 44px;
   width: 44px;
@@ -6,7 +6,7 @@
   border: 0;
 }
 
-.reasons__button{
+.reasons__button {
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
@@ -15,8 +15,9 @@
   @include reasons__button-text;
 }
 
-@media all and (min-widht:768px){
-  .reasons__button{
+//MEDIA 768px
+@media all and (min-widht: 768px) {
+  .reasons__button {
     width: 210px;
     height: 45px;
     border-radius: 22.5px;
@@ -26,8 +27,9 @@
   }
 }
 
-@media all and (min-widht:1100px){
-  .reasons__button{
+//MEDIA 1100px
+@media all and (min-widht: 1100px) {
+  .reasons__button {
     width: 255px;
     height: 45px;
     border-radius: 22.5px;

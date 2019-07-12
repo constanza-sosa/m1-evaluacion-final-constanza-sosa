@@ -1,17 +1,19 @@
-.wrapper{
+.wrapper {
   margin: 0 15px;
   box-sizing: border-box;
   height: 100%;
 }
 
-@media all and (min-width: 768px){
-  .wrapper{
+      //-- MEDIA 768px
+@media all and (min-width: 768px) {
+  .wrapper {
     margin: 0 40px;
   }
 }
 
-@media all and (min-width: 1100px){
-  .wrapper{
+      //-- MEDIA 1110px
+@media all and (min-width: 1100px) {
+  .wrapper {
     margin: 0 85px;
   }
 }

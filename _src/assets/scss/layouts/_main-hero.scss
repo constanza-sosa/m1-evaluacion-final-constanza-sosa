@@ -8,14 +8,14 @@
   left: 0;
   box-sizing: border-box;
 }
-.hero__container{
+.hero__container {
   height: 100%;
   position: relative;
   top: 0;
   left: 0;
   text-align: center;
 }
-.hero__text-container{
+.hero__text-container {
   display: inline-block;
   width: 100%;
   max-width: 400px;
@@ -25,21 +25,21 @@
   transform: translateX(-50%);
   text-align: center;
 }
-.hero__title{
-  margin:0;
-  padding:0;
+.hero__title {
+  margin: 0;
+  padding: 0;
   @include h1-font();
 }
-.hero__text{
+.hero__text {
   margin: 0;
-  padding:0;
+  padding: 0;
   @include subtitle-font;
 }
 
-.hero__icon-link{
+.hero__icon-link {
   transform: translateX(-50%);
   transform-origin: center center;
-  @include hero-icon-link ();
+  @include hero-icon-link();
   position: absolute;
   left: 50%;
   bottom: 53px;
@@ -47,10 +47,10 @@
   animation-duration: 2s;
   animation-iteration-count: 1;
 }
-.hero__icon-link:hover{
+.hero__icon-link:hover {
   border: 2px solid $color_bright-orange;
   transform: translateX(-50%) scale(1.1);
-  transition: transform ease-in-out .8s, border ease 1s;
+  transition: transform ease-in-out 0.8s, border ease 1s;
 }
 @keyframes bounce {
   from {
@@ -61,33 +61,34 @@
   }
 }
 
-
-@media all and (min-width:768px){
-  .hero__text-container{
+//MEDIA 768px
+@media all and (min-width: 768px) {
+  .hero__text-container {
     max-width: 690px;
   }
-  .hero__icon-link{
+  .hero__icon-link {
     bottom: 45px;
   }
-  .hero__title{
+  .hero__title {
     @include h1-font-768();
   }
-  .hero__text{
+  .hero__text {
     @include subtitle-font-768;
   }
 }
 
-@media all and (min-width:1100px){
-  .hero__text-container{
+//MEDIA 1100px
+@media all and (min-width: 1100px) {
+  .hero__text-container {
     max-width: 730px;
   }
-  .hero__icon-link{
+  .hero__icon-link {
     bottom: 13px;
   }
-  .hero__title{
+  .hero__title {
     @include h1-font-1100();
   }
-  .hero__text{
+  .hero__text {
     @include subtitle-font-1100;
   }
 }
