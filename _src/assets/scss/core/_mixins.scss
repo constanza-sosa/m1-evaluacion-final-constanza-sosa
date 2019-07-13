@@ -7,7 +7,7 @@
 
 //BOX-LINKS
 @mixin hero-icon-link {
-  display: block;
+  display: inline-block;
   height: 45px;
   width: 45px;
   border-radius: 50%;
@@ -20,7 +20,6 @@
   background-size: 20px 12px;
 }
 @mixin footer-icon-link {
-  text-align: center;
   display: inline-block;
   height: 45px;
   width: 45px;
@@ -118,10 +117,8 @@
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
-  text-align: center;
   color: $color_white;
   text-transform: uppercase;
-  cursor: pointer;
   text-decoration: none;
 }
 @mixin footer-copy-text {
@@ -129,7 +126,6 @@
   font-size: 14px;
   font-weight: normal;
   line-height: 30px;
-  text-align: center;
   color: $color_white;
 }
 
@@ -211,16 +207,14 @@
   color: $color_white;
 }
 
-//FONT-STYLES --> FOOTER
+//FONT-STYLES --> FOOTER-786
 @mixin footer-links-text-768 {
   font-family: $font_family-Roboto;
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
-  text-align: center;
   color: $color_white;
   text-transform: uppercase;
-  cursor: pointer;
   text-decoration: none;
 }
 @mixin footer-copy-text-768 {
@@ -228,7 +222,6 @@
   font-size: 14px;
   font-weight: normal;
   line-height: 30px;
-  text-align: center;
   color: $color_white;
 }
 
@@ -310,16 +303,14 @@
   color: $color_white;
 }
 
-//FONT-STYLES --> FOOTER
+//FONT-STYLES --> FOOTER-1100
 @mixin footer-links-text-1100{
   font-family: $font_family-Roboto;
   font-size: 16px;
   font-weight: normal;
   line-height: 30px;
-  text-align: center;
   color: $color_white;
   text-transform: uppercase;
-  cursor: pointer;
   text-decoration: none;
 }
 @mixin footer-copy-text-1100 {
@@ -327,6 +318,5 @@
   font-size: 14px;
   font-weight: normal;
   line-height: 30px;
-  text-align: center;
   color: $color_white;
 }
