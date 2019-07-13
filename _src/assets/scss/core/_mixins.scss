@@ -42,14 +42,12 @@
   font-size: 42px;
   line-height: 55px;
   text-transform: uppercase;
-  text-align: center;
   color: $color_white;
 }
 @mixin subtitle-font(){
   font-family: $font_family-Roboto;
   font-weight: normal;
   font-size: 16px;
-  text-align: center;
   color: $color_white;
 }
 
@@ -60,7 +58,6 @@
   font-weight: normal;
   line-height: 30px;
   color: $color_lightblue;
-  margin-bottom: 1px;
 }
 @mixin article-title (){ //vale para el titulo de reasons sin el bottom-margin
   font-family: $font_family-RobotoS;
@@ -68,24 +65,19 @@
   font-weight: bold;
   line-height: 30px;
   color: $color_black;
-  margin-bottom: 15px;
 }
 @mixin article-text(){
   font-family: $font_family-Roboto;
   font-size: 18px;
   font-weight: normal;
   line-height: 30px;
-  letter-spacing: normal;
   color: $color_greyish-brown;
-  margin-bottom: 30px;
 }
 @mixin go-text () {
   font-family: $font_family-Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 45px;
-  letter-spacing: normal;
-  text-align: center;
   color: $color_bright-orange;
   text-decoration: none;
 }
@@ -152,14 +144,12 @@
   font-size: 80px;
   line-height: 106px;
   text-transform: uppercase;
-  text-align: center;
   color: $color_white;
 }
 @mixin subtitle-font-768(){
   font-family: $font_family-Roboto;
   font-weight: normal;
   font-size: 24px;
-  text-align: center;
   color: $color_white;
 }
 
@@ -177,24 +167,19 @@
   font-weight: bold;
   line-height: 45px;
   color: $color_black;
-  margin-bottom: 30px;
 }
 @mixin article-text-768(){
   font-family: $font_family-Roboto;
   font-size: 20px;
   font-weight: normal;
   line-height: 30px;
-  letter-spacing: normal;
   color: $color_greyish-brown;
-  margin-bottom: 30px;
 }
 @mixin go-text-768 () {
   font-family: $font_family-Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 45px;
-  letter-spacing: normal;
-  text-align: center;
   color: $color_bright-orange;
   text-decoration: none;
 }
@@ -261,14 +246,12 @@
   font-size: 100px;
   line-height: 132px;
   text-transform: uppercase;
-  text-align: center;
   color: $color_white;
 }
 @mixin subtitle-font-1100(){
   font-family: $font_family-Roboto;
   font-weight: normal;
   font-size: 24px;
-  text-align: center;
   color: $color_white;
 }
 
@@ -286,24 +269,19 @@
   font-weight: bold;
   line-height: 45px;
   color: $color_black;
-  margin-bottom: 30px;
 }
 @mixin article-text-1100(){
   font-family: $font_family-Roboto;
   font-size: 20px;
   font-weight: normal;
   line-height: 30px;
-  letter-spacing: normal;
   color: $color_greyish-brown;
-  margin-bottom: 30px;
 }
 @mixin go-text-1100 () {
   font-family: $font_family-Roboto;
   font-size: 20px;
   font-weight: 500;
   line-height: 45px;
-  letter-spacing: normal;
-  text-align: center;
   color: $color_bright-orange;
   text-decoration: none;
 }
