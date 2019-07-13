@@ -56,7 +56,6 @@
     @include reasons-title-768;
   }
   .reasons__item-text {
-    margin: 0;
     @include reasons-text-768;
   }
 }
@@ -66,16 +65,13 @@
   .reasons {
     padding: 60px 0;
   }
-
   .reasons__title {
     @include reasons-section-title-1100;
   }
   .reasons__item-title {
-    margin: 0;
     @include reasons-title-1100;
   }
   .reasons__item-text {
-    margin: 0;
     @include reasons-text-1100;
   }
 }
