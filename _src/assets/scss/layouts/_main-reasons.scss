@@ -51,6 +51,9 @@
   .item-3 {
     grid-column: 3/4;
   }
+  .reasons__title {
+    @include reasons-section-title-768;
+  }
   .reasons__item-title {
     margin-bottom:14px;
     @include reasons-title-768;
