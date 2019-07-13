@@ -14,9 +14,9 @@
   top: 0;
   left: 0;
   text-align: center;
+  box-sizing: border-box;
 }
 .hero__text-container {
-  display: inline-block;
   width: 100%;
   max-width: 400px;
   position: absolute;
@@ -26,13 +26,11 @@
   text-align: center;
 }
 .hero__title {
-  margin: 0;
-  padding: 0;
+  margin: 0 0 10px;
   @include h1-font();
 }
 .hero__text {
   margin: 0;
-  padding: 0;
   @include subtitle-font;
 }
 
@@ -42,7 +40,7 @@
   @include hero-icon-link();
   position: absolute;
   left: 50%;
-  bottom: 5%;
+  bottom: 10%;
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: 1;
@@ -61,6 +59,20 @@
   }
 }
 
+//MEDIA FOR LANDSCAPE - MOBILE
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  .hero__text-container {
+    top: 35vh;
+  }
+  .hero__icon-link {
+    bottom: 5%;
+  }
+  .hero__title {
+    margin:0;
+    @include h1-font();
+  }
+}
+
 //MEDIA 768px
 @media all and (min-width: 768px) {
   .hero__text-container {
@@ -70,6 +82,7 @@
     bottom: 45px;
   }
   .hero__title {
+    margin: 0;
     @include h1-font-768();
   }
   .hero__text {
