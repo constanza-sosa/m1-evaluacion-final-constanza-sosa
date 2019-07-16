@@ -47,6 +47,8 @@
 }
 .footer__copy {
   margin-bottom: 45px;
+  display: flex;
+  flex-direction: column-reverse;
 }
 .footer__copy-heart {
   color: $color_bright-orange;
