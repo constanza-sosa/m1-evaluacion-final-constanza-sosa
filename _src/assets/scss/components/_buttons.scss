@@ -10,10 +10,10 @@
   width: 184px;
   height: 45px;
   border-radius: 22.5px;
-  background-color: $color_bright-orange;
+  background-color: $color_white;
   cursor: pointer;
-  @include reasons__button-text;
-  border: 0;
+  @include go-text();
+  border: solid 2px $color_bright-orange;
 }
 .reasons__button:hover {
   background-color:$color_white;

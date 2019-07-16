@@ -42,6 +42,7 @@
   animation-name: bounce;
   animation-duration: 2s;
   animation-iteration-count: 1;
+  display: none;
 }
 .hero__icon-link:hover {
   border: 2px solid $color_bright-orange;
@@ -76,6 +77,7 @@
     max-width: 690px;
   }
   .hero__icon-link {
+    display: block;
     bottom: 45px;
   }
   .hero__title {

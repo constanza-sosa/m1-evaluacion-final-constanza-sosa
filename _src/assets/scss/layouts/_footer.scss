@@ -38,6 +38,14 @@
   @include footer-copy-text;
   margin: 0;
 }
+<<<<<<< HEAD
+=======
+.footer__copy {
+  margin-bottom: 45px;
+  display: flex;
+  flex-direction: column-reverse;
+}
+>>>>>>> improve-purchase
 .footer__copy-heart {
   color: $color_bright-orange;
   &:hover {
