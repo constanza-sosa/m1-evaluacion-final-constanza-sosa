@@ -41,7 +41,6 @@ gulp.task('styles', function(done) {
     .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
     .pipe(sass({
       outputStyle: 'extended',
-      precision: 2,
     }))
     .pipe(combineMq({
       beautify: true
@@ -120,7 +119,6 @@ gulp.task('styles-dist', function(done) {
     .pipe(plumber({errorHandler: notify.onError('Error: <%= error.message %>')}))
     .pipe(sass({
       outputStyle: 'compressed',
-      precision: 2,
     }))
     .pipe(combineMq({
       beautify: false

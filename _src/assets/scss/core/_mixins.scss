@@ -39,7 +39,7 @@
   font-family: $font_family-RobotoS;
   font-weight: $font_weight-bold;
   font-size: 42px;
-  line-height: lh(55,42);
+  line-height: decimal-round(lh(55,42));
   text-transform: uppercase;
   color: $color_white;
 }
